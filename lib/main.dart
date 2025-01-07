@@ -42,8 +42,8 @@ class MyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           title: 'Turtle',
           theme: DefaultTheme.getDefaultTheme(),
-          home: AddProductCategories(),
-          // initialRoute: RouteNames.splashScreen,
+          // home: AddProductCategories(),
+          initialRoute: RouteNames.splashScreen,
           // onGenerateRoute: Routes.generateRoute,
         )
     );
