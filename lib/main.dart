@@ -44,7 +44,7 @@ class MyApp extends StatelessWidget {
           theme: DefaultTheme.getDefaultTheme(),
           // home: AddProductCategories(),
           initialRoute: RouteNames.splashScreen,
-          // onGenerateRoute: Routes.generateRoute,
+          onGenerateRoute: Routes.generateRoute,
         )
     );
 
